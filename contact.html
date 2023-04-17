@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contact.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./contact.html">contact</a>
+    </nav>
+    <fieldset>
+        <legend>Name</legend>
+        <p>
+            <label for="Full name">Full Name:</label>
+            <input type="text" name="fullname" id="fullname">
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Details</legend>
+        <p>
+            <label for="Contact number">Contact Number:</label>
+            <input type="tel" name="Contact_number" id="Contact_number" minlength="10" maxlength="10">
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>E-mail</legend>
+        <p>
+            <label for="E-mail">E-mail:</label>
+            <input type="text" name="E-mail" id="E-mail">
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Contact</legend>
+        <p>
+            <label for="Contact By" id="Contact By">Contact By:</label>
+            <select name="Contact By">
+                <option value="Phone">Phone</option>
+                <option value="E-mail">E-mail</option>
+            </select>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Questions</legend>
+        <p>
+            <label for="Message">Any Questions</label>
+            <textarea id="Message" name="Message" rows="6" cols="30">
+             </textarea>
+        </p>
+    </fieldset>
+    <fieldset>
+        <p>
+            <input type="Submit" value="Submit">
+        </p>
+    </fieldset>
+    </form>
+    <footer>
+        &copy; Kushal Patel, 2023
+    </footer>
+</body>
+</html>

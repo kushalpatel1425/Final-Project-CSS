@@ -1,0 +1,65 @@
+body {
+    background-color: floralwhite;
+    background-image: linear-gradient(to right, rgb(211, 244, 211), rgb(245, 192, 123));
+}
+
+body nav {
+    text-decoration: none;
+    justify-content: space-around;
+    padding: 2.0em;
+    display: flex;
+}
+
+/* pseudo-class selector */
+body nav a:hover {
+    transform: scale(175%);
+}
+
+nav a {
+    font-size: larger;
+}
+
+nav {
+    background-color: bisque;
+}
+
+/* id selector */
+#header {
+    font-size: x-large;
+}
+
+/* element selector */
+header> p {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    text-decoration: underline solid rgb(243, 149, 9);
+}
+
+/* grouping selector */
+section > p,
+h2,
+h3,
+h4,
+h5 {
+    font-size: large;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    color: rgb(118, 118, 118);
+}
+
+ul > li:nth-of-type(odd) {
+    color: rgb(255, 72, 0);
+}
+
+ul > li:nth-of-type(even) {
+    color: rgb(154, 91, 237);
+}
+
+ol > li:nth-of-type(odd) {
+    color: coral;
+}

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+
+body {
+    font-size: medium;
+    background-color: antiquewhite;
+}
+
+nav {
+    background-image: linear-gradient(to right, rgb(211, 244, 211), rgb(245, 192, 123));
+}
+
+body nav {
+    justify-content: space-around;
+    display: flex;
+    padding: 1.8em;
+    text-decoration: none;
+}
+
+nav a {
+    font-size: larger;
+}
+
+body nav a:hover {
+    color: rgb(162, 242, 162);
+    transform: scale(170%);
+}
+
+p {
+    color: rgb(248, 131, 5);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+legend {
+    font-size: large;
+    color: rgb(95, 163, 240);
+    font-family: "Sofia", sans-serif;
+}
